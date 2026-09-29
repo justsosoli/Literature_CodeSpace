@@ -1,0 +1,153 @@
+# ============================================
+#  Python / Bytecode / 虚拟环境
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+anaconda/
+conda/
+
+# ============================================
+#  PyCharm / IDE
+# ============================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# ============================================
+#  Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ============================================
+#  PyTorch / 深度学习训练产物
+# ============================================
+ckpt/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.bin
+runs/
+events.out.tfevents.*
+tensorboard_logs/
+logs/
+
+# 预训练数据(体积大,通常不上传)
+data/pubchem-10m-clean.txt
+data/raw/
+
+# 数据集处理中间产物
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# ============================================
+#  日志 / 缓存 / 临时文件
+# ============================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+#  环境变量 / 密钥
+# ============================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.yaml
+config_local.yaml
+
+# ============================================
+#  系统文件
+# ============================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+#  文档 / Office 临时文件
+# ============================================
+*.bak
+*.swp
+*.rej
+*.orig
+
+# ============================================
+#  大型数据 / 模型权重
+# ============================================
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+models/*.bin
+models/*.pt
+pretrained/
+
+# ============================================
+#  Wandb / 实验追踪
+# ============================================
+wandb/
+mlruns/
+.optuna_storage/
+
+# ============================================
+#  C / C++ 编译产物(部分 RDKit 子模块可能产生)
+# ============================================
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.dylib

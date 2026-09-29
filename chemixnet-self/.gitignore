@@ -1,0 +1,125 @@
+# ===== Python =====
+# 字节码 / 优化缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python 编译/分发
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+develop-eggs/
+downloads/
+parts/
+sdist/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.ENV.bak/
+.python-version
+
+# 测试 / 覆盖率
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+*.cover
+.hypothesis/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# 日志
+*.log
+logs/
+
+# ===== TensorFlow / Keras / 深度学习 =====
+# 模型权重与检查点
+*.h5
+*.hdf5
+*.hpb
+*.pb
+*.ckpt.*
+*.checkpoint
+*.model
+*.json
+checkpoints/
+saved_models/
+tf-models/
+models/*.h5
+models/*.hdf5
+
+# TensorBoard
+runs/
+tensorboard_logs/
+events.out.tfevents.*
+.tflite
+.onnx
+
+# ===== 数据 / 缓存（按需放开） =====
+# 数据集已经在 data/ 中跟踪；这里只忽略常见的临时大文件
+*.tsv.bak
+*.csv.bak
+*.parquet
+*.feather
+
+# ===== PyCharm / JetBrains =====
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ===== 编辑器 / OS =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+.vscode/
+
+# ===== 环境 / 密钥 =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.yaml
+config.ini
+config.local.ini
+
+# ===== 其他 =====
+*.tmp
+*.bak
+*.swp
+.history/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# 项目内潜在的输出目录
+results/
+outputs/
+predictions/
+figures/
